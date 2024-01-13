@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+@import url('fonts.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,10 +22,98 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background-color:#ffffff;
+  font-family: 'ralewayregular';
+  font-weight: normal;
+  font-style: normal;
+
+/*  background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb));*/
 }
+section {
+  overflow: hidden;
+}
+.text-primary {
+  color: #40ddbe;
+}
+
+footer .copyright .telli{
+  font-size:13px;
+  font-family:'ralewayextralight';
+  color:#252525;
+  font-weight:600;
+}
+
+
+/*
+
+
+
+
+#fbsection1 {
+  padding-top:100px;
+  overflow:hidden;
+  background-color:#000000;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+}
+
+#fbsection1 .container{display:table !important;}
+
+#fbsection1 .text{text-align: center;}
+#fbsection1 .text .first{
+  color:#ffffff;
+  font-family: "ralewaybold";
+}
+
+#fbsection1 .text .second{
+  color:#40ddbe;
+  font-family: "ralewaybold";
+}
+
+#fbsection1 .text .third{
+  color:#ffffff;
+  font-family: "ralewaylight";
+}
+
+
+#fbsection1 .bottom-button{margin-top:110px;text-align:center;}
+#fbsection1 .bottom-button a{
+  padding-left:25px;
+  padding-right:25px;
+  height:50px;
+  font-size:24px;
+  font-family:'ralewaysemibold';
+  color:#ffffff;
+}
+
+#fbsection1 .bottom-button a:hover,
+#fbsection1 .bottom-button a:focus{text-decoration:underline;color:#ffffff;}
+
+
+
+!*Main*!
+.fbsection1down{
+  position:absolute;
+  width:100%;
+  height:40px;
+  bottom:0px;
+  z-index:7;
+}
+.fbsection1down .subdown{margin:0 auto;display:table;}
+
+.fbsection1down .subdown a{
+  float:left;
+  height:40px;
+  width:80px;
+  background-position:center center;
+  background-repeat:no-repeat;
+  margin-left:41px;
+  margin-right:41px;
+}
+*/
