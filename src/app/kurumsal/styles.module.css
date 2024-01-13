@@ -6,16 +6,22 @@
 }
 
 .tabList {
-    @apply flex list-none flex-wrap flex-row pt-0 mt-0
+    @apply flex list-none flex-row pt-0 mt-0 flex-wrap
 }
 
 
 .tabList li {
-    @apply -mb-px flex-auto text-center odd:bg-[#cac2bd] even:bg-[#cfcbc8]   -translate-y-12
+    @apply -mb-px flex-auto text-center odd:bg-[#cac2bd] even:bg-[#cfcbc8]  xl:-translate-y-12
 }
 
 .tabList li a{
-    @apply  text-xl leading-6 text-white font-normal px-12 block py-8 font-['ralewaythin'] h-24
+    @apply  text-xl leading-6 text-white font-normal 2xl:px-12 md:px-6 px-1 block xl:py-8 font-['ralewaythin'] 2xl:h-24 md:h-12 sm:h-6 h-auto
+}
+.tabList li a span:first-child{
+    @apply md:inline hidden
+}
+.tabList li a span:last-child{
+    @apply  md:hidden inline
 }
 
 .activeTab {
@@ -23,25 +29,23 @@
     background-color: #40ddbe !important;
 }
 .activeTab:after {
-    @apply w-0 h-0 absolute -bottom-[1.5rem] left-1/2  ;
+    @apply w-0 h-0 absolute -bottom-[1.5rem] left-1/2 hidden xl:block;
     content: "";
     border-left: 1.2rem solid transparent;
     border-right: 1.2rem solid transparent;
     border-top: 1.5rem solid #40ddbe;
 }
 .tabContent p{
-    @apply text-center font-['ralewaylight'] text-sm text-[#2c2d39] border-solid border-b-[3px] border-[#7fffd4] mb-2.5 pb-8 mx-52;
+    @apply text-center font-['ralewaylight'] text-sm text-[#2c2d39] border-solid border-b-[3px] border-[#7fffd4] mb-2.5 pb-8 2xl:mx-52 xl:mx-48 lg:mx-36 md:mx-24 sm:mx-12 mx-8;
     line-height:16px;
     font-weight: 600;
 }
 
 .title{
-    @apply mt-0  font-['ralewaythin'] text-[#40ddbe];
-    margin-bottom:40px;
-    font-size:80px;
-    font-weight: 600;
-}
+    @apply mt-0 font-['ralewaythin'] text-[#40ddbe] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-semibold
+    2xl:mb-10 xl:mb-8 lg:mb-6 md:mb-4 sm:mb-3 mb-2  ;
+ }
 
 .desc {
-    @apply text-white mb-0 font-['ralewaythin'] font-semibold text-2xl	 ;
+    @apply text-white mb-0 font-['ralewaythin'] font-semibold lg:text-2xl md:text-xl sm:text-lg text-base	;
 }

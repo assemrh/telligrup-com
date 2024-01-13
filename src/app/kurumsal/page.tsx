@@ -58,7 +58,7 @@ export default function Test() {
                 </section>
                 <section className='w-full text-center overflow-visible'>
                     <div className="mx-auto  w-full bg-[#ded8d4]">
-                        <div className="relative px-12 ">
+                        <div className="relative lg:px-12 md:px-6  ">
                             <ul
                                 className={styles.tabList}
                                 role="tablist"
@@ -75,7 +75,8 @@ export default function Test() {
                                        href="#link1"
                                        role="tablist"
                                     >
-                                        {i.title}
+                                        <span>{i.title}</span>
+                                        <span>{i.id}</span>
                                     </a>
                                 </li>)}
                             </ul>
