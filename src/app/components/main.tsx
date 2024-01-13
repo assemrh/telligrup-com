@@ -32,10 +32,10 @@ export default function Main() {
                         </div>
                     </div>
                     <div className={styles.bottomButtons}>
-                        <a href="otomotiv">SEKTÖRLER</a>
-                        <a href="markalar">MARKALAR</a>
-                        <a href="referanslar-otomotiv">REFERANSLAR</a>
-                        <a href="memnuniyet-anketi">MEMNUNİYET ANKETİ</a>
+                        <a href="/kurumsal">SEKTÖRLER</a>
+                        <a href="/kurumsal">MARKALAR</a>
+                        <a href="/kurumsal">REFERANSLAR</a>
+                        <a href="/kurumsal">MEMNUNİYET ANKETİ</a>
                     </div>
                 </div>
             </div>

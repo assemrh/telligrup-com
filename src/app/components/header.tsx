@@ -50,10 +50,14 @@ export default function Header() {
 
             {/*Mobile menu links */}
             <nav className="flex flex-col items-center">
-                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">Home</a>
-                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">About</a>
-                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">Services</a>
-                {/*Add more links as needed */}
+                <a href="/" className="text-white hover:underline hover:text-[#40ddbe]">Anasayfa</a>
+                <a href="/kurumsal" className="text-white hover:underline hover:text-[#40ddbe]">Kurumsal</a>
+                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">MARKALAR</a>
+                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">SEKTÖRLER</a>
+                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">REFERANSLAR</a>
+                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">İK</a>
+                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">MEMNUNİYET ANKETİ</a>
+                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">İLETİŞİM</a>
             </nav>
         </div>
         </header>
