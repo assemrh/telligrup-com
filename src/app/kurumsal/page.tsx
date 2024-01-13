@@ -84,7 +84,7 @@ export default function Test() {
                         <div className='lg:pb-16 lg:px-16 lg:mx-16'>
                             <div className='lg:mx-16  text-base text-[#333] font-["ralewayregular"]'>
                                 {listArray.map(i =>
-                                    <p key={i.id} className={`lg:mx-16 lg:px-16 ${(openTab === i.id ? '' : "hidden")}`}
+                                    <p key={i.id} className={`lg:mx-16 md:mx-8 mx-4 lg:px-16 md:px-8 px-4 my-4 ${(openTab === i.id ? '' : "hidden")}`}
                                        onClick={e => {
                                            e.preventDefault();
                                            setOpenTab(i.id);
