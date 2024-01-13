@@ -3,7 +3,7 @@
 
 export default function Footer() {
     return (
-        <footer className='pb-10 pt-12 bg-[#ded8d4] text-zinc-700 text-lg	' >
+        <footer className='pb-10 pt-12 bg-[#ded8d4] text-zinc-700 md:text-lg text-sm' >
         <div className="container mx-auto">
             <div className="basis-1">
                 <div className="flex w-full justify-center items-center flex-row gap-2">

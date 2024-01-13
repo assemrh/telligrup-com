@@ -15,7 +15,7 @@
     @apply flex items-center justify-between gap-x-2.5
 }
 .mobileMenu span {
-    @apply h-5 leading-5 text-teal-500 font-['Raleway']
+    @apply h-5 leading-5 text-teal-500 font-['Raleway'] sm:block hidden
 }
 .brandlogo{
     @apply w-auto xl:h-14 h-12	;
@@ -66,10 +66,10 @@
 .bottomButtons {
     @apply flex flex-wrap justify-center items-center gap-1
     2xl:pt-28 xl:pt-24 lg:pt-20 md:pt-1 mt-14
-    2xl:px-80 xl:px-72 lg:px-40 md:px-20 px-16
+    2xl:px-80 xl:px-72 lg:px-40 md:px-20
 }
 .bottomButtons a {
-    @apply     font-['ralewaysemibold'] px-6 h-12 text-2xl text-white;
+    @apply font-['ralewaysemibold'] px-6 lg:h-12 md:h-10 h-6 text-2xl text-white;
 
 }
 .overlayLayer ul li a:hover,.overlay ul li a:focus {color: #40ddbe;text-decoration:underline;}

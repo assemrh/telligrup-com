@@ -19,14 +19,14 @@ export default function Main() {
             <div className="container mx-auto px-4 md:pt-16">
                 <div className="w-full">
                     <div className="flex flex-col">
-                        <div className="text-white font-['ralewaybold'] lg:text-7xl	md:text-6xl text-5xl lg:leading-[67px] mb-2">DEĞER
+                        <div className="text-white font-['ralewaybold'] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-2xl lg:leading-[67px] md:mb-2">DEĞER
                             KATIYORUZ,
                         </div>
                         <div
-                            className="text-[#40ddbe] font-['ralewaybold'] lg:text-7xl md:text-6xl text-5xl lg:leading-[67px]">BERABER
+                            className="text-[#40ddbe] font-['ralewaybold'] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-2xl lg:leading-[67px] ">BERABER
                             YÜKSELİYORUZ.
                         </div>
-                        <div className="text-white font-['ralewaylight'] lg:text-3xl md: text-2xl">Tam 34
+                        <div className="text-white font-['ralewaylight'] lg:text-3xl md:text-2xl text-xl leading-5">Tam 34
                             yıldır başarıya giden yolda birlikte yürüyor, sizden güç
                             alıyoruz.
                         </div>
@@ -184,24 +184,24 @@ export default function Main() {
                 <div className="md:basis-1/3 sm:basis-1/2 w-full min-h-[50vh] bg-[#7b6764]">
                     <div className="grid grid-rows-2 grid-flow-col auto-cols-fr gap-0 w-full h-full">
                         <div className='flex flex-col text-center items-center justify-center mx-auto my-auto px-6 text-[#b8b2a5]'>
-                                <h4 className="font-['ClanPro-Thin'] text-5xl">75.000</h4>
-                                <p className="font-['ralewaythin'] text-lg">Autogong Online İhale Platforumu’nda yıllık ortalama satışına
+                                <h4 className="font-['ClanPro-Thin'] xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl">75.000</h4>
+                                <p className="font-['ralewaythin'] md:text-lg text-sm">Autogong Online İhale Platforumu’nda yıllık ortalama satışına
                                     aracılık edilen araç
                                 </p>
                         </div>
                         <div className='flex flex-col text-center items-center justify-center mx-auto my-auto px-6 text-[#b8b2a5]'>
-                                <h4 className="font-['ClanPro-Thin'] text-5xl">16.000</h4>
-                                <p className="font-['ralewaythin'] text-lg">
+                                <h4 className="font-['ClanPro-Thin'] xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl">16.000</h4>
+                                <p className="font-['ralewaythin'] md:text-lg text-sm">
                                     Aksam Otomotiv yıllık ortalama toplu alımı gerçekleşen araç
                                 </p>
                         </div>
                         <div className='flex flex-col text-center items-center justify-center mx-auto my-auto px-6 text-[#b8b2a5]'>
-                                <h4 className="font-['ClanPro-Thin'] text-5xl">91</h4>
-                                <p className="font-['ralewaythin'] text-lg">81 İlde Çevre Bakanlığı Onaylı Teslim Noktası</p>
+                                <h4 className="font-['ClanPro-Thin'] xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl">91</h4>
+                                <p className="font-['ralewaythin'] md:text-lg text-sm">81 İlde Çevre Bakanlığı Onaylı Teslim Noktası</p>
                         </div>
                         <div className='flex flex-col text-center items-center justify-center mx-auto my-auto px-6 text-[#b8b2a5]'>
-                                <h4 className="font-['ClanPro-Thin'] text-5xl">140</h4>
-                                <p className="font-['ralewaythin'] text-lg">81 İlde Çevre Bakanlığı Onaylı Ekosistem Bayisi</p>
+                                <h4 className="font-['ClanPro-Thin'] xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl">140</h4>
+                                <p className="font-['ralewaythin'] md:text-lg text-sm">81 İlde Çevre Bakanlığı Onaylı Ekosistem Bayisi</p>
                         </div>
                     </div>
 
