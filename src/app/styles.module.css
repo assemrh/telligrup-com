@@ -6,8 +6,7 @@
     @apply flex flex-row ;
 }
 .logo span {
-    @apply font-['Raleway'] text-[#40ddbe] text-2xl leading-10 h-12 border-l border-opacity-60 border-white pl-5
-
+    @apply font-['Raleway'] text-[#40ddbe] text-2xl leading-10 h-12 border-l border-opacity-60 border-white pl-5 sm:block hidden
 }
 .mobileMenu {
     @apply h-5 cursor-pointer
@@ -19,7 +18,7 @@
     @apply h-5 leading-5 text-teal-500 font-['Raleway']
 }
 .brandlogo{
-    @apply h-[56px] w-auto;
+    @apply w-auto xl:h-14 h-12	;
 }
 .navbarBrand{
     @apply leading-5 flex flex-row items-center;
@@ -55,17 +54,12 @@
 
 
 .overlayLayer ul li {
-    @apply block h-auto;
+    @apply block h-auto md:min-h-16;
     height: calc(100% / 10);
-    min-height:70px;
-
 }
 
 .overlayLayer  a {
-    @apply text-white block;
-
-    font-size:60px;
-    font-family:'ralewayextralight';
+    @apply text-white block 2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-['ralewayextralight'];
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }

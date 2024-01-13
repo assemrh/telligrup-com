@@ -13,7 +13,7 @@ export default function Header() {
         <header className={styles.header}>
             <div className={styles.logo}>
                 <a className={styles.navbarBrand} href="/">
-                    <div className='pr-5'>
+                    <div className='lg:pr-5 md:pr-3 pr-2'>
 
                         <Image
                             src="/assets/images/logo.png"
@@ -30,7 +30,7 @@ export default function Header() {
                 <a  onClick={() => setNavbar(!navbar)} >
                     <span>Menü</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.2}
-                         stroke="#40ddbe" className="w-11 h-11">
+                         stroke="#40ddbe" className="xl:size-11	lg:size-10 size-9  ">
                         <path strokeLinecap="square" strokeLinejoin="round"
                               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
                     </svg>
