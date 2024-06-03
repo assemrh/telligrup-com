@@ -43,7 +43,7 @@ Hoşgeldiniz
             </div>
         </section>
         <section  id="section-2" className='w-full'>
-            <div className="container mx-auto ">
+            <div className="container-full mx-auto ">
             <ResponsiveSlider></ResponsiveSlider>
             </div>
         </section>

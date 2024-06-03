@@ -5,7 +5,7 @@ import Header from "@/app/components/header";
 import Main from "@/app/components/main";
 import Footer from "@/app/components/footer";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], })
 
 export const metadata: Metadata = {
   title: 'GizliBahçe ',
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[#ded8d4]/50`}>
       <Header/>
         {children}
       <Footer />
