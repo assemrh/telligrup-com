@@ -36,7 +36,7 @@ export default function ResponsiveSlider() {
       >
         {arrayData.map((element): React.JSX.Element => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={element.id}>
               <div className="max-w-sm rounded overflow-hidden shadow-lg relative">
                 <Image
                   src={`/assets/images/items/${element.id}.png`}
