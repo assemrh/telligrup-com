@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="basis-1">
                 <div className="flex w-full justify-center items-center flex-row gap-2">
                         <span className="instagram">
-                            <a href="https://www.instagram.com/telligrup/"
+                            <a href="https://www.instagram.com/gizlibahce/"
                                 target="_blank">
                                 <svg fill="none" viewBox="0 0 24 24" height="1em" width="1em">
                                     <path
@@ -40,7 +40,7 @@ export default function Footer() {
                         </span>
                         <span>/</span>
                         <span className="twitter">
-                            <a href="https://twitter.com/TelliGrup" target="_blank">
+                            <a href="https://twitter.com/gizlibahce" target="_blank">
                                 <svg
                                     viewBox="0 0 1024 1024"
                                     fill="#40ddbe"
@@ -54,14 +54,14 @@ export default function Footer() {
                         </span>
                         <span>/</span>
                         <span className="mail hover:underline">
-                            <a href="mailto:info@telligrup.com">info@telligrup.com</a>
+                            <a href="mailto:info@gizlibahce.com">info@gizlibahce.com</a>
                         </span>
                         <span>/</span>
                         <span className="phone hover:underline"><a href="tel:4441557">444 1 548</a></span>
                     </div>
                 <div className="text-center mt-6	">
-                    <div className="telli">
-                        Copyright {(new Date()).getFullYear()} Telli Grup. Her hakkı saklıdır. İzinsiz kopyalanamaz
+                    <div className="gizlibahce">
+                        Copyright {(new Date()).getFullYear()} Gizlibahce Grup. Her hakkı saklıdır. İzinsiz kopyalanamaz
                         veya çoğaltılamaz.
                     </div>
 

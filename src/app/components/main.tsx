@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import styles from "@/app/styles.module.css";
 import React from "react";
+import ResponsiveSlider from './responsive-slider';
 
 export default function Main() {
+
+
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
         <section id="section-1" className={styles.banner}>
@@ -19,12 +22,11 @@ export default function Main() {
             <div className="container mx-auto px-4 md:pt-16">
                 <div className="w-full">
                     <div className="flex flex-col">
-                        <div className="text-white font-['ralewaybold'] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-2xl lg:leading-[67px] md:mb-2">DEĞER
-                            KATIYORUZ,
+                        <div className="text-white font-['ralewaybold'] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-2xl lg:leading-[67px] md:mb-2">Saros’un Gizli Bahçesine 
                         </div>
                         <div
-                            className="text-[#40ddbe] font-['ralewaybold'] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-2xl lg:leading-[67px] ">BERABER
-                            YÜKSELİYORUZ.
+                            className="text-[#40ddbe] font-['ralewaybold'] 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl text-2xl lg:leading-[67px] ">
+Hoşgeldiniz
                         </div>
                         <div className="text-white font-['ralewaylight'] lg:text-3xl md:text-2xl text-xl leading-5">Tam 34
                             yıldır başarıya giden yolda birlikte yürüyor, sizden güç
@@ -40,7 +42,12 @@ export default function Main() {
                 </div>
             </div>
         </section>
-        <section className='w-full' id="section-2">
+        <section  id="section-2" className='w-full'>
+            <div className="container mx-auto ">
+            <ResponsiveSlider></ResponsiveSlider>
+            </div>
+        </section>
+        <section className='w-full' id="section-3">
             <div className="flex flex-row flex-wrap">
                 <div className={`${styles.category} bg-[url('/assets/images/categories1.jpg')]`}>
                     <div className={styles.box}>

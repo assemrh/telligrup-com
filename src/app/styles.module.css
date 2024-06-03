@@ -1,5 +1,5 @@
 .header{
-    @apply fixed flex justify-between h-[100px] text-[#40ddbe] w-full top-0 left-0 bg-[url('/assets/images/header-abnormal.png')]
+    @apply flex justify-between h-[100px] text-[#40ddbe] w-full top-0 left-0 
     bg-repeat-x bg-left-top p-5 z-10   ;
 }
 .logo {

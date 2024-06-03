@@ -3,14 +3,30 @@
 import Image from 'next/image'
 import styles from '../styles.module.css';
 import Link from 'next/link';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export default function Header() {
     const [navbar, setNavbar] = useState(false);
-
+    const [stikyNav, setStikyNav] = useState(true);
+    const [scrolled, setScrolled] = useState(false);
+    useEffect(() => {
+        const handleScroll = () => {
+          const offset = window.scrollY;
+          if (offset > 100) {
+            setScrolled(true);
+          } else {
+            setScrolled(false);
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
     return (
         <>
-        <header className={styles.header}>
+        <header className={`${styles.header} ${scrolled ? " bg-black ":" bg-transparent"} fixed`}>
             <div className={styles.logo}>
                 <a className={styles.navbarBrand} href="/">
                     <div className='lg:pr-5 md:pr-3 pr-2'>
@@ -20,10 +36,10 @@ export default function Header() {
                             width={288}
                             height={56}
                             className={styles.brandlogo}
-                            alt={'brand logo telli group'}
+                            alt={'brand logo gizli bah'}
                         />
                     </div>
-                    <span>34.YIL</span>
+                    <span>14.YIL</span>
                 </a>
             </div>
             <div className={styles.mobileMenu}>
@@ -57,7 +73,7 @@ export default function Header() {
                 <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">REFERANSLAR</a>
                 <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">İK</a>
                 <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">MEMNUNİYET ANKETİ</a>
-                <a href="#" className="text-white hover:underline hover:text-[#40ddbe]">İLETİŞİM</a>
+                <a href="/iletisim" className="text-white hover:underline hover:text-[#40ddbe]">İLETİŞİM</a>
             </nav>
         </div>
         </header>

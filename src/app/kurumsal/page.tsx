@@ -9,33 +9,33 @@ export default function Test() {
         {
             id: 1,
             title: 'Tarihçe',
-            description: '2001 yılında Telli Grup, sigorta ve otomotiv sektörlerine yönelik iş alanlarında hizmet vermeye başlamış ve yılda 60.000 den fazla aracın toplu alımını gerçekleştirdiği Aksam Otomotiv’i kurmuştur.',
-            tDescription : '1989’ yılında Telli Grup ’u oluşturan girişimlerin temelini sağlayacak faaliyetlerle ticaret hayatına ilk adımlar atılmıştır. Bu girişim aynı zamanda Türkiye’nin hızla büyüyen sektörlerinde lider olma yolunda attığı güçlü adımların da öncüsü olmuştur.\n' +
+            description: '2001 yılında Gizlibahce, sigorta ve otomotiv sektörlerine yönelik iş alanlarında hizmet vermeye başlamış ve yılda 60.000 den fazla aracın toplu alımını gerçekleştirdiği Aksam Otomotiv’i kurmuştur.',
+            tDescription : '1989’ yılında gizlibahce Grup ’u oluşturan girişimlerin temelini sağlayacak faaliyetlerle ticaret hayatına ilk adımlar atılmıştır. Bu girişim aynı zamanda Türkiye’nin hızla büyüyen sektörlerinde lider olma yolunda attığı güçlü adımların da öncüsü olmuştur.\n' +
                 '\n'
         },
         {
             id: 2,
             title: 'Vizyon & Misyon',
-            description: 'Telli Grup hizmet verdiği her alanda toplam kalite prensibi ile yenilikçi çözümler sunar.',
+            description: 'gizlibahce Grup hizmet verdiği her alanda toplam kalite prensibi ile yenilikçi çözümler sunar.',
         },
         {
-            id: 3, title: 'Değerlerimiz', description: 'Telli Grup öncü ve yenilikçidir, etik değerlere saygılıdır.',
+            id: 3, title: 'Değerlerimiz', description: 'gizlibahce Grup öncü ve yenilikçidir, etik değerlere saygılıdır.',
         },
         {
             id: 4,
             title: 'Başkanın Mesajı',
             description: 'Değerli yatırımcılarımız, iş ortaklarımız ve çok kıymetli çalışanlarımız;' +
-                'Telli Grup olarak, bünyemizde bizlere büyük başarılar getiren girişimlerimizi ve alanımızda öncü olmamızı yenilikçi, dinamik, kaliteli projeleri hayata geçirmek için gösterdiğimiz özene ve güçlü bir topluluk olmamıza borçluyuz.',
+                'gizlibahce Grup olarak, bünyemizde bizlere büyük başarılar getiren girişimlerimizi ve alanımızda öncü olmamızı yenilikçi, dinamik, kaliteli projeleri hayata geçirmek için gösterdiğimiz özene ve güçlü bir topluluk olmamıza borçluyuz.',
         },
         {
             id: 5,
             title: 'Varlıklarımız',
-            description: 'Telli Grup sektöründe adil rekabet eder, müşterilerine akılcı ve etik kurallar çerçevesinde hizmet sunar.',
+            description: 'gizlibahce Grup sektöründe adil rekabet eder, müşterilerine akılcı ve etik kurallar çerçevesinde hizmet sunar.',
         },
         {
             id: 6,
             title: 'Kilometre Taşları',
-            description: 'Telli Grup olarak Gücümüzü halkımızdan, çalışanlarımızdan, ortaklarımızdan ve müşterilerimizden alıyoruz.',
+            description: 'gizlibahce Grup olarak Gücümüzü halkımızdan, çalışanlarımızdan, ortaklarımızdan ve müşterilerimizden alıyoruz.',
         },
         {
             id: 7, title: 'ETİK KURALLAR', description: 'ETİK KURALLAR',
